@@ -8,7 +8,7 @@ function About() {
       <div className="About">
         <Title />
         <header className="App-header">
-        <h1>About us</h1>
+        <h1>About</h1>
           <a
             className="App-link"
             href="https://reactjs.org"
