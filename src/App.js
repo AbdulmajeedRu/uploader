@@ -1,6 +1,13 @@
 import React from 'react';
 import Title from './Title';
+import Aboutus from './Aboutus';
 import './App.css';
+const mystyle = {
+  color: "white",
+ 
+  padding: "10px",
+  fontFamily: "Arial"
+};
 
 function App() {
   return (
@@ -24,14 +31,19 @@ function App() {
             </div>
             <button onClick="" className="button1">Upload</button>
           </div>
-          
-        
+
+
+           
+
         
       
     }
  
-      </header>
+       
+     </header>
+      <Aboutus/>
     </div>
+  
   );
 }
 
