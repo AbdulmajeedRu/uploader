@@ -6,17 +6,12 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "body-parser": "^1.19.0",
-    "concurrently": "^5.2.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.9.22",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "node server.js",
-    "server":"nodemon server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -35,20 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "server.js",
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AbdulmajeedRu/uploader.git"
-  },
-  "author": "AbdulmajeedRu",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AbdulmajeedRu/uploader/issues"
-  },
-  "homepage": "https://github.com/AbdulmajeedRu/uploader#readme"
+  }
 }
