@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-<<<<<<< HEAD
+
 
     "body-parser": "^1.19.0",
     "bootstrap": "^4.5.0",
@@ -14,22 +14,17 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.22",
 
-=======
->>>>>>> parent of 64c232d... server is connected now : )
+
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.5.1"
   },
   "scripts": {
-<<<<<<< HEAD
-    "start": "node server.js",
+    "start": "node App.js",
 
     "server": "nodemon server.js",
 
-=======
-    "start": "react-scripts start",
->>>>>>> parent of 64c232d... server is connected now : )
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
